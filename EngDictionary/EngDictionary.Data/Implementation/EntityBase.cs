@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EngDictionary.Data.Implementation
 {
-    class EntityBase
+    internal class EntityBase : IWord
     {
     }
 }
