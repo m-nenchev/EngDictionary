@@ -1,49 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EngDictionary.Data.Implementation
 {
     internal class EntityBase : IWord 
     {
-        Guid id = Guid.NewGuid();
-
-        string text = "subject";
-
-        string translation = "table";
-
-        public EntityBase()
+        public EntityBase(Guid id)
         {
-            Guid.NewGuid();
-        }
-        public EntityBase(Guid Id)
-        {
-           Id = this.Id;
+           Id = id;
         }
 
         public Guid Id { get; }
        
 
-        public string Text
-        {
-            get
-            {
-                return text;
-            }
-        }
+        public string Text { get; set; }
       
 
-        public string Translation
-        {
-            get
-
-            {
-                return translation;
-            }
-        }
-        
-
+        public string Translation { get; set; }
     }
 }
