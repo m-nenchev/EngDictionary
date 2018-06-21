@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Implementation\EntityBase.cs" />
+    <Compile Include="Implementation\IVerb.cs" />
+    <Compile Include="Implementation\Verb.cs" />
     <Compile Include="IWord.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -2,7 +2,7 @@
 
 namespace EngDictionary.Data.Implementation
 {
-    internal class EntityBase : IWord 
+    abstract class EntityBase : IWord 
     {
         public EntityBase(Guid id)
         {
